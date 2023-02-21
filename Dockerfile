@@ -1,6 +1,6 @@
 FROM openjdk:17
 
-ADD target/ 
+ADD target/spring-petclinic-3.0.0-SNAPSHOT.jar spring-petclinic-3.0.0-SNAPSHOT.jar
 
 EXPOSE
 
