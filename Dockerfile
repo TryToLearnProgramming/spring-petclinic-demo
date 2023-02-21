@@ -4,4 +4,4 @@ ADD target/spring-petclinic-3.0.0-SNAPSHOT.jar spring-petclinic-3.0.0-SNAPSHOT.j
 
 EXPOSE
 
-CMD[]
+CMD["java","-jar","/spring-petclinic-3.0.0-SNAPSHOT.jar"]
